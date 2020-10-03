@@ -1,0 +1,27 @@
+@keyframes grow {
+    from {font-size: 24px;}
+    to {font-size: 36px;}
+}
+
+@keyframes move {
+0% {left: 0%}
+50% {left: 10%}
+75% {left: 5%}
+95% {left: 0.1%}
+}
+
+h1 {
+    animation-name: grow;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    color: orange;
+    
+}
+
+#move {
+    position: relative;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+}
