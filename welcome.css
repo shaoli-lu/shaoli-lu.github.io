@@ -1,6 +1,6 @@
 @keyframes grow {
-    from {font-size: 24px;}
-    to {font-size: 38px;}
+    from {font-size: 18px;}
+    to {font-size: 24px;}
 }
 
 @keyframes move {
@@ -10,11 +10,11 @@
 95% {left: 0.1%}
 }
 
-h1 {
+div {
     animation-name: grow;
-    animation-duration: 10s;
+    animation-duration: 12s;
     animation-fill-mode: forwards;
-    color: orange;
+   
     
 }
 
@@ -24,8 +24,6 @@ h1 {
     animation-duration: 3s;
     animation-fill-mode: forwards;
     animation-iteration-count: 2;
+    color: orange;
 }
 
-div {
-    font-size: 24px;
-}
