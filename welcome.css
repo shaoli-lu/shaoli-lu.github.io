@@ -5,6 +5,7 @@
 
 @keyframes move {
 0% {left: 0%}
+25% {left: 25%}
 50% {left: 50%}
 75% {left: 25%}
 95% {left: 0.1%}
