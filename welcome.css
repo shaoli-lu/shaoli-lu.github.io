@@ -5,15 +5,15 @@
 
 @keyframes move {
 0% {left: 0%}
-25% {left: 25%}
-50% {left: 50%}
-75% {left: 25%}
+25% {left: 30%}
+50% {left: 60%}
+75% {left: 30%}
 95% {left: 0.1%}
 }
 
 div {
     animation-name: grow;
-    animation-duration: 12s;
+    animation-duration: 60s;
     animation-fill-mode: forwards;
    
     
@@ -22,9 +22,9 @@ div {
 #move {
     position: relative;
     animation-name: move;
-    animation-duration: 3s;
+    animation-duration: 60s;
     animation-fill-mode: forwards;
-    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
     color: orange;
 }
 
