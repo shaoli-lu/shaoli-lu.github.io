@@ -3,6 +3,10 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+img {
+  height: 48px;
+  margin: 15px 0;
+}
 .header {
   padding: 0 45px;
   background-color: green;
