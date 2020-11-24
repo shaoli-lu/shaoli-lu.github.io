@@ -9,12 +9,13 @@ img {
  
 }
 
-/* rotate */
+/* move */
 .hover img {
-  transition: 1.5s ease-in-out;
+  margin-left: 4px;
+  transition: .3s ease-in-out;
 }
 .hover img:hover {
-  transform: rotate(8deg);
+  margin-left: 0;
 }
 
 .header {
