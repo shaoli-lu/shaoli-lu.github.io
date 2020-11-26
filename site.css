@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
+  
 }
 
 img {
@@ -53,7 +54,7 @@ img {
 
 .hero {
   background-color: rgb(219, 245, 181);
-  padding: 35px;
+  padding: 5px;
   display: flex;
   justify-content: center;
 }
