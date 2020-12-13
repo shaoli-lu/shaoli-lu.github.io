@@ -14,6 +14,7 @@ img {
 .hover img {
   margin-left: 4px;
   transition: .3s ease-in-out;
+ 
 }
 .hover img:hover {
   margin-left: 0;
@@ -83,6 +84,11 @@ img {
   border-radius: 8px;
   font-size: 1.18rem;
   display: inline-block;
+}
+
+.button:hover {
+  background: #37B686;
+  opacity: 0.7;
 }
 
 .features {
