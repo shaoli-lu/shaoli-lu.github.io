@@ -124,3 +124,54 @@ img {
   color: #999;
   font-size: .9rem;
 }
+
+
+#zhuan{
+  width: 20px;
+  height: 20px;
+  /* border: 2px white; */
+  box-shadow: 2px 1px 3px #9d9ea7;
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+ }
+
+#zhuan::before{
+  content: "";
+  background-image: conic-gradient(
+      /* gold 20deg, */
+      red, yellow, green,
+      transparent 355deg
+  );
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  animation: rotate 4s linear infinite;
+
+
+}
+
+#zhuan::after{
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: #E8EAF6;
+  position: absolute;
+  border-radius: 2px;
+  box-shadow: 16px 14px 20px #0000008c;
+  color: green;
+
+}
+
+@keyframes rotate {
+  0%{
+      transform: rotate(0deg)
+  }
+  100%{
+      transform: rotate(-360deg)
+  }
+}
