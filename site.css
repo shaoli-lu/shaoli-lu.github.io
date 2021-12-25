@@ -70,12 +70,12 @@ img {
 
 .hero h2 {
   font-weight: normal;
-  font-size: 2.1rem;
+  font-size: clamp(2rem, 5vw, 5rem);
   margin: 0;
 }
 
 .hero p {
-  font-size: 1.18rem;
+  font-size: clamp(1.18rem, 1.25vw, 1.25rem);
   line-height: 1.6;
 }
 
