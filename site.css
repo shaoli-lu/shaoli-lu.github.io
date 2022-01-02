@@ -193,3 +193,16 @@ img {
 .skip-nav-link:focus{
   transform: translateY(0);
 }
+
+#qr {
+
+  display: flex;
+  justify-content: center;
+  
+  }
+  
+#qrimg {
+  
+  width: 30%;
+  
+  }
