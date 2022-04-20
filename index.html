@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shaoli's Site</title>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet"> 
 <link rel="stylesheet" href="site.css">
 <link rel="apple-touch-icon" sizes="205x154" href="favicon.png">
 <link rel="shortcut icon" type="image/png" href="favicon.png">
@@ -14,8 +16,9 @@
 
 
 <body>
-
+<a class="skip-nav-link" href="#hero">Skip Nav</a>
 <div class="header">
+ 
   <figure class="hover">
   <img src="favicon.png" alt="Logo">
   </figure>
@@ -26,8 +29,11 @@
   </ul>
 </div>
 
+<br>
+<div id="zhuan"></div>
+<br>
 <div class="hero">
-  <div class="hero-inner">
+  <div class="hero-inner" id="hero">
     <h2>Welcome To My Site!</h2>
     <p>Richard Nixon once said: “The Chinese use two brush strokes to write the word crisis (危机). One brush stroke 危 stands for danger; 
       the other 机 for opportunity. In a crisis, be aware of the danger - but recognize the opportunity.” This quote is apt for this COVID-19 pandemic.  
@@ -40,12 +46,16 @@
   </div>
 </div>
 
+<br>
+<div id="zhuan"></div>
+<br>
+
 <div class="features">
   <div class="features-inner">
     <div class="featured-item">
-     <a href="https://shaoli-lu.github.io/Quote/"><h3>Quotable Quote</h3></a> 
+     <a href="https://shaoli-lu.github.io/MemoryMatch/"><h3>Memory Match</h3></a> 
       <p><br>
-        This app will generate a random quote from public APIs. Click or touch the coffee mug for a new quote. Share your favorite quotes with family and friends!</br>
+       This is designed to test your memories. Click any cell to reveal a number. Click on another cell. Once a match is found the matched numbers will be visible. Find all the matches for the numbers in the shortest time. This game can be played using the number key as well!</br>
         <br>
         “If money is your hope for independence you will never have it. The only real security that a man will have in this world is a reserve of knowledge, experience, and ability.” 
         <br>
@@ -77,11 +87,19 @@
       <br>
       &emsp; -Vince Lombardi
       </p>
-    </div>
+     </div>
 
     
-  </div>
+    </div>
+ </div>
+ <br>
+ <br>
+<div id="zhuan"></div>
+<br>
+<div id="qr">
+  <img src="qr.png" alt="QR Code for quick access" id="qrimg">
 </div>
+<br>
 
 <div class="footer">
   <p>&copy; 2020 Shaoli Lu</p>
