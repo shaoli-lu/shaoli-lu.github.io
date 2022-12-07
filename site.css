@@ -54,6 +54,7 @@ img {
 
 .nav li {
   font-weight: bold;
+  font-size: clamp(0.89rem, 1.25vw, 1.25rem);
   margin-left: 15px;
 }
 
